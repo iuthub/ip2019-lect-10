@@ -16,4 +16,10 @@
     </div>
     <hr>
     @endforeach
+    <div class="row">
+        <div class="col text-center">
+            {{-- pagination links --}}
+            {{ $posts->links() }}
+        </div>
+    </div>
 @endsection
